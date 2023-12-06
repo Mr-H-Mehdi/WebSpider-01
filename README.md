@@ -5,22 +5,22 @@ HMK's Web Spider is a web application designed for crawling and searching web pa
 
  ## Features  
 ### Crawling:  
-Input URL: Users can input a URL to crawl.
-Data Retrieval: The application fetches information about the title, description, keywords, and content of the provided URL.
-Data Storage: Crawled data is stored in a structured JSON file (data.json).
+Input URL: Users can input a URL to crawl.  
+Data Retrieval: The application fetches information about the title, description, keywords, and content of the provided URL.  
+Data Storage: Crawled data is stored in a structured JSON file (data.json).  
 ### Searching:  
-Input Query: Users can input a search query.
-Search Algorithm: The application searches the crawled data for matches with the query in titles, descriptions, keywords, and URLs.
-Results Display: Search results are displayed, including the title, description, and URL of matching pages.
+Input Query: Users can input a search query.  
+Search Algorithm: The application searches the crawled data for matches with the query in titles, descriptions, keywords, and URLs.  
+Results Display: Search results are displayed, including the title, description, and URL of matching pages.  
   
   ## Technology Stack  
 ### Frontend:  
-HTML/CSS: Structuring and styling the web pages.
-JavaScript/jQuery: Handling user interactions and making asynchronous requests.
+HTML/CSS: Structuring and styling the web pages.  
+JavaScript/jQuery: Handling user interactions and making asynchronous requests.  
 ### Backend:  
-PHP: Server-side scripting language.
-cURL: Library for making HTTP requests.
-DOMDocument: PHP class for manipulating HTML and XML documents.
+PHP: Server-side scripting language.  
+cURL: Library for making HTTP requests.  
+DOMDocument: PHP class for manipulating HTML and XML documents.  
   
   ## Getting Started  
 1. Open index.php in a web browser.
